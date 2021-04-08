@@ -11,7 +11,7 @@ Basically from here, all you need to do is plug in all the resulting values from
 <a target="_blank" href="https://mixedmoss.com/miscellaneous/randomwalk_arcsin_theory1.pdf">Inspiration</a><br>
 <h2>Optimization</h2>
 In a naive implementation, computationally heavy Math.random() function will be invoked upon calculating every random coin tosses,<br>
-Here, notice that this is sequence of binary decision can be expressed by the same bites length of bit field.<br>
+Here, notice that this sequence of binary decision can be expressed by a bit field of the same length.<br>
 I exploited the fact that the second to the fifth byte of Math.random() floating point ooutput will give a perfect sequence of random bits.<br>
 <ul>
 <li>First I created a binary buffer using ArrayBuffer().<br>

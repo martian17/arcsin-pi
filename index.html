@@ -23,7 +23,7 @@
     <h2>Optimization</h2>
     <div>
         In a naive implementation, computationally heavy <pre class="inline">Math.random()</pre> function will be invoked upon calculating every random coin tosses,<br>
-        Here, notice that this is sequence of binary decision can be expressed by the same bites length of bit field.<br>
+        Here, notice that this sequence of binary decision can be expressed by a bit field of the same length.<br>
         I exploited the fact that the second to the fifth byte of Math.random() floating point ooutput will give a perfect sequence of random bits.<br>
         <ul>
         <li>First I created a binary buffer using <pre class="inline">ArrayBuffer()</pre>.<br>
