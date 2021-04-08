@@ -8,7 +8,7 @@ p(t)=1/(π√(t(1-t)))<br>
 Transforming this will give the following
 π=1/(p(t)√(t(1-t)))<br>
 Basically from here, all you need to do is plug in all the resulting values from the graph to this equation.<br>
-<a target="_blank" href="https://mixedmoss.com/miscellaneous/randomwalk_arcsin_theory1.pdf">Inspiration</a><br>
+<a target="_blank" href="https://www.nli-research.co.jp/report/detail/id=59021?site=nli">Inspiration</a><br>
 <h2>Optimization</h2>
 In a naive implementation, computationally heavy Math.random() function will be invoked upon calculating every random coin tosses,<br>
 Here, notice that this sequence of binary decision can be expressed by a bit field of the same length.<br>
