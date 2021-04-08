@@ -52,3 +52,7 @@ this.getBitList = function(){
 }
 };
 ```
+
+
+<a target="_blank" href="https://codepen.io/MartianLord/pen/wvgPywN">Demo</a><br>
+<a target="_blank" href="https://github.com/martian17/arcsin-pi">Github</a><br>
