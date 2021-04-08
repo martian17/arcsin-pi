@@ -150,7 +150,7 @@ var initiate = function(canvas){
 };
 
 var canvas = document.getElementById("canvas");
-var width = ((window.innerWidth>>1)-1)*2+2;//ensures it's odd number
+var width = ((window.innerWidth>>1)-20)*2;//ensures it's odd number
 var height = 500;
 canvas.width = width;
 canvas.height = height;
