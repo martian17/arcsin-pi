@@ -14,7 +14,7 @@ In a naive implementation, computationally heavy Math.random() function will be 
 Here, notice that this is sequence of binary decision can be expressed by the same bites length of bit field.<br>
 I exploited the fact that the second to the fifth byte of Math.random() floating point ooutput will give a perfect sequence of random bits.<br>
 <ul>
-<li>First I created a binary buffer using `ArrayBuffer()`.<br>
+<li>First I created a binary buffer using ```ArrayBuffer()```.<br>
 <li>Second I initialized said ArrayBuffer with Float64Array, Uint8Array, and Int32Array view object<br>
 <li>Third, I stored the result of Math.random into ArrayBuffer through the Float64Array.<br>
 <li>Finally, I can swap out the good bits to desirable locations in the array buffer using Uint8Array.<br>
